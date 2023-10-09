@@ -18,7 +18,8 @@
       <label class="post__search--label">
         Search by Id
       </label>
-      <input type="text" placeholder="1">
+      <!-- onchange allows us to use an event listener -->
+      <input type="number" placeholder="1" onchange="onSearchChange(event)">
     </div>
   </div>
   <div class="post-list">
